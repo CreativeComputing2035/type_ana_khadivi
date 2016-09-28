@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="A Type Specimen for Helvetica">
+        <title>Helvetica Type Specimen</title>
+        <style>
+            
+            body{
+               font-family: Helvetica, Arial, sans-serif;
+                width: 82%;
+                margin: auto;
+
+            }
+            .flex_container{
+                display: -webkit-flex;
+                width: 100%;
+            }
+            .flex_1{
+                width: 66%;
+                text-align:justify;
+                font-size: 1em;
+                line-height: 1.6em;
+             /*   outline: solid red 1px; */
+                margin-right:40px;
+            }
+            .flex_2{
+                width: 33%;
+                font-size: 1em;
+                line-height: 1.6em;  
+               /* outline: 1px solid yellow;  */ 
+            }
+            .flex_3{
+                width: 33%;
+                text-align: justify;
+              outline: 1px solid blue; */
+            }
+            #characters{
+                font-size:3em;
+                line-height: 1.3em;
+                text-align:justify;'
+                
+            }
+            #characters p{
+                margin-top:6px;
+            }
+            h1{
+             /*   outline: 1px solid green; */
+                font-weight: 300;
+                font-size: 3em;
+                margin-bottom: 5px;
+                background-color: red;
+                color:white;
+                padding-top: 2px;
+                padding-bottom:2px;
+                text-align: center;
+            }
+
+            h2{
+                font-weight: bold;
+               /* outline: 1px solid deeppink; */
+                margin-bottom:0;
+            }
+            h3{
+                font-size: .8em;
+                color:red;
+                margin-top:10px;
+                margin-bottom:0;
+            }
+            #history{
+                font-size: 1em;
+                line-height: 1.6em;  
+                margin-bottom:10px;
+            }
+            .flex_1 p{
+                margin-top:0;
+            }
+             .flex_2 p{
+                margin-top:0;
+            }
+            #example_1{
+                font-size:.8em;
+                line-height: 1.5;
+                text-align: left;
+                margin-top:0px;
+                margin-bottom:10px;
+            }
+
+            #example_2{
+                font-size:.9em;
+                line-height: 1.6;
+                text-align: left;
+                margin-top:0px;
+                margin-bottom:10px;
+
+            }
+            #example_3{
+                font-size:1em;
+                line-height: 1.8;
+                text-align: left;
+                margin-top:0px;
+                margin-bottom:10px;
+
+            }
+            #gradient{
+                background: linear-gradient(to right,white, #E6E6E6,#D1D1D1, #B8B8B8, #A1A1A1, #878787, #696969, #575757, #454444, #2B2B2B, #141414, #000000);
+                height: 75px;
+            }     
+            a{
+                color:red; 
+                text-decoration:none;
+                margin-top:0;
+            }
+            a:hover{
+                color:deepskyblue;
+                text-decoration:none;
+            }
+            #large_quote{
+                font-size: 3em;
+                color:red;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Helvetica</h1>
+       <!-- <h2>type specimen</h2> -->
+         <h2 id='character_heading'>Characters</h2>
+        <h3>3/1.3em</h3>
+           <div id='characters'>
+               <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9 0 ‘ ? ’ “ ! ” ( % [ # { @ } / &amp; &#60; - + ÷ × = &#62; ® © $ € ¥ ¢ : ; , . *</p> 
+            </div>
+        
+            <div class='flex_container'>
+            <div class='flex_1'>
+            <h2> History</h2>
+            <h3>1/1.6em</h3>
+            <p id='history'>The original Helvetica was designed in Switzerland in 1957 by Max Miedinger.Helvetica was originally called Die Neue Haas Grotesk, and was closely based on Schelter-Grotesk. It was created specifically to be neutral, to not give any impression or have any meaning in itself. This neutrality was paramount, and based on the idea that type itself should give no meaning. </p>
+            <a href='#'>Read more about Helvetica</a>
+            </div>
+                
+            
+            <div class='flex_2'>
+                <h2>Styles</h2>
+                <h3>1/1.6em </h3>
+               <p>The quick brown fox jumps over the lazy dog<br><em>The quick brown fox jumps over the lazy dog</em><br><strong>The quick brown fox jumps over the lazy dog</strong><br><em><strong>The quick brown fox jumps over the lazy dog</strong></em></p>
+           </div>
+        </div>
+
+        
+        
+        <h2>Sample Text</h2>
+        <div class='flex_container'>
+            
+            <div class="flex_3" style='margin-right:10px;'>
+                <h3>.8/1.5em</h3>
+                
+                <p id='example_1' style='margin-top:10px;'>Lorem ipsum dolor sit amet, arcu consequat, arcu senectus mi viverra mattis, quam pede. <em>Vestibulum</em> in ultrices nec maecenas, sollicitudin a, ullamcorper in mauris vivamus a, quis mattis at ut pellentesque, quisque donec sem porttitor. Arcu ut imperdiet a nunc lorem eu, egestas purus blandit morbi ornare, est pellentesque. Lacus augue nec purus, justo nam, lectus sed elit lorem semper dui, ultricies odio sed dolor, mattis sed in. Tempor ipsum vulputate potenti sed, donec morbi at, sem et <strong>vel porta vitae</strong>, senectus hendrerit eleifend.</p>
+                <p id='example_1'>Scelerisque mattis adipiscing libero erat, sapien diam a non viverra suspendisse, condimentum wisi massa tellus. Mattis turpis urna vel ridiculus dictum, integer omnis a hendrerit vitae est odio, et consequat nec donec, magna libero praesent aliquam velit pellentesque, etiam turpis eu suspendisse augue vel. <em>Rhoncus consequat quisque mi velit vel egestas, varius lorem enim donec a egestas ultricies, proin suscipit, etiam vel lacus mauris sapien bibendum, erat arcu.</em>em Sit aptent porta, vel vivamus praesent, quis sed, sit interdum orci non. Quis pretium orci ante vel, cursus pellentesque vehicula duis sed magna quisque, condimentum ac dolor laoreet neque venenatis.</p>
+                <p id='example_1'>Aliquam sociosqu ut in sollicitudin duis accumsan, nulla quisque, eu mi sodales tellus lorem mauris egestas, asperiores phasellus quis lobortis vel risus quam. Dictumst mollis etiam amet ut, lobortis egestas. Non aliquam in, imperdiet semper parturient, eget eget pharetra mattis, enim tincidunt nunc eu, eget ut. <strong>Consectetuer</strong> tristique ac, leo convallis sed. Sed beatae pede lectus, lacus neque diam rutrum curabitur velit ante, amet quis odio eros dis.</p>
+                
+            </div>
+                <div class="flex_3" style='margin-right:10px; margin-left:10px;'>
+                <h3>.9/1.6em</h3>
+                <p id='example_2' style='margin-top:10px;'>Lorem ipsum dolor sit amet, arcu consequat, arcu senectus mi viverra mattis, quam pede. <em>Vestibulum</em> in ultrices nec maecenas, sollicitudin a, ullamcorper in mauris vivamus a, quis mattis at ut pellentesque, quisque donec sem porttitor. Arcu ut imperdiet a nunc lorem eu, egestas purus blandit morbi ornare, est pellentesque. Lacus augue nec purus, justo nam, lectus sed elit lorem semper dui, ultricies odio sed dolor, mattis sed in. Tempor ipsum vulputate potenti sed, donec morbi at, sem et <strong>vel porta vitae</strong>, senectus hendrerit eleifend.</p>
+                <p id='example_2'>Scelerisque mattis adipiscing libero erat, sapien diam a non viverra suspendisse, condimentum wisi massa tellus. Mattis turpis urna vel ridiculus dictum, integer omnis a hendrerit vitae est odio, et consequat nec donec, magna libero praesent aliquam velit pellentesque, etiam turpis eu suspendisse augue vel. <em>Rhoncus consequat quisque mi velit vel egestas, varius lorem enim donec a egestas ultricies, proin suscipit, etiam vel lacus mauris sapien bibendum, erat arcu.</em> Sit aptent porta, vel vivamus praesent, quis sed, sit interdum orci non. Quis pretium orci ante vel, cursus pellentesque vehicula duis sed magna quisque, condimentum ac dolor laoreet neque venenatis.</p>
+                <p id='example_2'>Aliquam sociosqu ut in sollicitudin duis accumsan, nulla quisque, eu mi sodales tellus lorem mauris egestas, asperiores phasellus quis lobortis vel risus quam. Dictumst mollis etiam amet ut, lobortis egestas. Non aliquam in, imperdiet semper parturient, eget eget pharetra mattis, enim tincidunt nunc eu, eget ut. <strong>Consectetuer</strong> tristique ac, leo convallis sed. Sed beatae pede lectus, lacus neque diam rutrum curabitur velit ante, amet quis odio eros dis.</p>
+            </div>
+            <div class="flex_3" style='margin-left:10px;'>
+                <h3>1/1.8em</h3>
+                <p id='example_3' style='margin-top:10px;'>Lorem ipsum dolor sit amet, arcu consequat, arcu senectus mi viverra mattis, quam pede. <em>Vestibulum</em> in ultrices nec maecenas, sollicitudin a, ullamcorper in mauris vivamus a, quis mattis at ut pellentesque, quisque donec sem porttitor. Arcu ut imperdiet a nunc lorem eu, egestas purus blandit morbi ornare, est pellentesque. Lacus augue nec purus, justo nam, lectus sed elit lorem semper dui, ultricies odio sed dolor, mattis sed in. Tempor ipsum vulputate potenti sed, donec morbi at, sem et <strong>vel porta vitae</strong>, senectus hendrerit eleifend.</p>
+                <p id='example_3'>Scelerisque mattis adipiscing libero erat, sapien diam a non viverra suspendisse, condimentum wisi massa tellus. Mattis turpis urna vel ridiculus dictum, integer omnis a hendrerit vitae est odio, et consequat nec donec, magna libero praesent aliquam velit pellentesque, etiam turpis eu suspendisse augue vel. <em>Rhoncus consequat quisque mi velit vel egestas, varius lorem enim donec a egestas ultricies, proin suscipit, etiam vel lacus mauris sapien bibendum, erat arcu.</em> Sit aptent porta, vel vivamus praesent, quis sed, sit interdum orci non. Quis pretium orci ante vel, cursus pellentesque vehicula duis sed magna quisque, condimentum ac dolor laoreet neque venenatis.</p>
+                <p id='example_3'>Aliquam sociosqu ut in sollicitudin duis accumsan, nulla quisque, eu mi sodales tellus lorem mauris egestas, asperiores phasellus quis lobortis vel risus quam. Dictumst mollis etiam amet ut, lobortis egestas. Non aliquam in, imperdiet semper parturient, eget eget pharetra mattis, enim tincidunt nunc eu, eget ut. <strong>Consectetuer</strong> tristique ac, leo convallis sed. Sed beatae pede lectus, lacus neque diam rutrum curabitur velit ante, amet quis odio eros dis.</p>
+            </div>
+            
+        </div>
+        <div id='gradient'>
+            <p id='floating_box' style='color:white;'>. </p>
+        </div>
+        
+    </body>
+  
+</html>
+  <!-- regular, bold , italic ,bold italic 
+title
+face
+history
+ABCD or lazy dogs
+h1-h6 
+subhead(h2)
+series of paragraphs (3)
+paragraphs should use <strong> <em> and <#> and <a=href='#'>
+
+link styles-- what do your links look like?
+background quotes
+
+**extra credit** at the bottom make a gray scale horizontally-- 10 sections
+
+*blockquotes
+
+
+-->
